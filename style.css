@@ -253,7 +253,7 @@ flex-direction: column;
 }
 
 .wrapper-about h3{
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   font-size: 2.5rem;
   text-align: center; 
   color: var(--headerColors);
@@ -352,6 +352,8 @@ footer{
 }
 .showcase-area h3{
   font-size: 1rem;
+ 
+  
 }
 
 .btn{
@@ -459,7 +461,7 @@ footer{
     .text-are-about{
       text-align: left;
         width: 80%;
-        padding: 0;
+        padding-left: 20px;
 }
 
 .about-me p {
