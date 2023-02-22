@@ -342,6 +342,8 @@ margin-bottom: 5rem;
 
 .project-wrapper{
   width: 100%;
+  height: 100vh;
+  margin-top: 200px;
   
   background-color: rgb(255, 255, 255);
   /* background-color: var(--background); */
@@ -352,11 +354,14 @@ margin-bottom: 5rem;
   text-align: center;
   padding-top: 3rem;
   font-size: 2.5rem;
+  margin-bottom: 25px;
  
 }
 
 .project-container{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card{
@@ -391,6 +396,8 @@ margin-bottom: 5rem;
 
 footer{
   text-align: center;
+  background-color: var(--background);
+  color: white;
 }
 
 #li-icon{
@@ -547,10 +554,11 @@ footer{
       text-align: left;
         width: 80%;
         padding-left: 20px;
+        
 }
 
 .about-me p {
-  font-size: 1.2rem; 
+  font-size: 1.1rem; 
   padding-left: 0rem;
 }
 
@@ -583,8 +591,10 @@ footer{
   margin: 20px;
  }
 
- footer{
-  /* display: flex; */
+ .project-wrapper{
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
  }
 
 }
