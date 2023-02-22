@@ -19,6 +19,10 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
+p{
+  color: var(--background);
+}
+
 img{
   width: 85%;
   
@@ -44,6 +48,7 @@ a{
 
 .big-wrapper.active .hamburger-menu .bar{
   background-color: transparent;
+  
 
 }
 
@@ -52,7 +57,10 @@ a{
 }
 .big-wrapper.active .bar::after{
   transform: translateY(0) rotate(45deg);
+  
 }
+
+.big-wrapper .active 
 
 .logo{
   display: flex;
@@ -318,7 +326,6 @@ margin-bottom: 5rem;
   margin-left: 35px;
   font-size: 1rem;
   text-align: center;
-  color: var(--ctaColor);
 
 }
 
@@ -331,10 +338,17 @@ margin-bottom: 5rem;
   color: var(--headerColors)
 }
 
+.skill-header h3{
+  color: var(--ctaColor);
+  padding-top: 25px;
+  text-decoration: underline;
+}
+
 
 
 .card1 h3{
   padding-bottom: 4px;
+  color: var(--background);
 }
 
 
@@ -375,7 +389,7 @@ margin-bottom: 5rem;
 }
 
 .card h2{
-  color: var(--ctaColor);
+  color: var(--background);
 }
 
 .card:hover {
@@ -571,13 +585,13 @@ footer{
 }
 
 .card1{
-  width: 40px;
+  width: 50px;
   height: 50px;
   white-space: nowrap;
   float: left;
   margin-left: 15px;
   margin-top: 25px;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   text-align: center;
   color: var(--ctaColor);
 
@@ -592,7 +606,7 @@ footer{
  }
 
  .project-wrapper{
-  margin-top: 100px;
+  margin-top: 10px;
   height: 100%;
   width: 100%;
  }
