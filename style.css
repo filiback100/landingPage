@@ -306,7 +306,7 @@ font-size: 1.4rem;
 .row{
 display: flex;
 justify-content: center;
-
+margin-bottom: 5rem;
  
 }
 
@@ -320,13 +320,6 @@ justify-content: center;
   text-align: center;
   color: var(--ctaColor);
 
-}
-
-.card1:hover{
-  width:100px;
-  height: 110px;
-  transition: 0.2s;
-  cursor: pointer;
 }
 
 .skill-header{
@@ -367,6 +360,11 @@ footer{
   text-align: center;
 }
 
+#li-icon{
+  color: #eb872b;
+  font-size: 1.4rem;
+  padding-left: 5px;
+}
 
 
 
