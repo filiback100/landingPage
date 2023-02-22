@@ -188,6 +188,7 @@ transform: scale(1) !important;
 }
 
 .left {
+margin-left: 6rem;
 padding-left: 2rem; 
 display: flex;
 flex-direction: column;
@@ -253,7 +254,8 @@ flex-direction: column;
 }
 
 .wrapper-about h3{
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   font-size: 2.5rem;
   text-align: center; 
   color: var(--ctaColor);
@@ -261,7 +263,7 @@ flex-direction: column;
 }
 
 .wrapper-about{
-  margin-top: 2rem;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -274,7 +276,7 @@ flex-direction: column;
 
 #profile-pic{
   width: 10%;
-  padding-bottom: 1rem;
+
   padding-left: 1.2rem;
   margin-right: 25px;
 }
@@ -284,7 +286,7 @@ flex-direction: column;
 .text-are-about{
   text-align: left;
   width: 50%;
-  padding-left: 12%;
+  padding-left: 13%;
 }
 
 
@@ -299,6 +301,41 @@ flex-direction: column;
 color: var(--headerColors);
 font-size: 1.4rem;
 }
+
+/* skills */
+.row{
+display: flex;
+justify-content: center;
+
+ 
+}
+
+.card1{
+  width: 70px;
+  height: 80px;
+  white-space: nowrap;
+  float: left;
+  margin-left: 35px;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--ctaColor);
+
+}
+
+.card1:hover{
+  width:100px;
+  height: 110px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+
+
+.card1 h3{
+  padding-bottom: 4px;
+}
+
+
 /**Projects*/
 
 .project-wrapper{
@@ -348,6 +385,7 @@ footer{
 /* bigwrapper area */
   .left {
     min-width: 100%;
+    margin-left: 0;
 }
   
   .showcase-area{
@@ -478,6 +516,23 @@ footer{
 
 #profile-pic{
   width: 50%;
+}
+
+.wrapper-about {
+  margin-top: 2rem; 
+}
+
+.card1{
+  width: 40px;
+  height: 50px;
+  white-space: nowrap;
+  float: left;
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 0.5rem;
+  text-align: center;
+  color: var(--ctaColor);
+
 }
 
 
