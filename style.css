@@ -342,15 +342,48 @@ margin-bottom: 5rem;
 
 .project-wrapper{
   width: 100%;
-  height: 50vh;
+  
   background-color: rgb(255, 255, 255);
   /* background-color: var(--background); */
+  
 }
 .project-wrapper h3{
   color: var(--ctaColor); 
   text-align: center;
   padding-top: 3rem;
   font-size: 2.5rem;
+ 
+}
+
+.project-container{
+  display: flex;
+}
+
+.card{
+  width: min-content;
+  padding: 20px;
+  margin: 0 20px;
+  transition: .4s ease;
+  text-align: center;
+  
+  
+}
+
+.card h2{
+  color: var(--ctaColor);
+}
+
+.card:hover {
+  transform:scale(1.05); 
+  cursor: pointer;
+}
+
+
+.project-wrapper img{
+  height: 250px;
+  width: 300px;
+  border-radius: 30px;
+
 }
 
 
@@ -541,6 +574,17 @@ footer{
   color: var(--ctaColor);
 
 }
+ .project-container{
+  flex-wrap: wrap;
+  justify-content: center;
+ }
 
+ .card{
+  margin: 20px;
+ }
+
+ footer{
+  /* display: flex; */
+ }
 
 }
