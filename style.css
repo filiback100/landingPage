@@ -589,8 +589,9 @@ footer{
   height: 50px;
   white-space: nowrap;
   float: left;
-  margin-left: 15px;
-  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
   font-size: 0.6rem;
   text-align: center;
   color: var(--ctaColor);
@@ -605,10 +606,19 @@ footer{
   margin: 20px;
  }
 
+
+ .skill-header h3{
+margin-top: 20px;
+ }
+
  .project-wrapper{
-  margin-top: 10px;
+
   height: 100%;
   width: 100%;
+ }
+
+ #projects {
+margin-top: 0px;
  }
 
 }
