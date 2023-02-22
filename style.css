@@ -19,6 +19,27 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
+#myBtn {
+ 
+  width: 100px;
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50%;
+  
+   z-index: 0; 
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  color: var(--ctaColor);
+  background: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
 p{
   color: var(--background);
 }
@@ -620,5 +641,17 @@ margin-top: 20px;
  #projects {
 margin-top: 0px;
  }
+
+ 
+#myBtn {
+ 
+  width: 60px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 1px;
+  
+}
+
 
 }
