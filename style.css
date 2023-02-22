@@ -594,7 +594,7 @@ footer{
   margin-top: 20px;
   font-size: 0.6rem;
   text-align: center;
-  color: var(--ctaColor);
+  /* color: var(--ctaColor); */
 
 }
  .project-container{
@@ -603,7 +603,7 @@ footer{
  }
 
  .card{
-  margin: 20px;
+  margin: 10px;
  }
 
 
