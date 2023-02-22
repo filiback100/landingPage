@@ -329,6 +329,15 @@ justify-content: center;
   cursor: pointer;
 }
 
+.skill-header{
+  /* background-color: #095519; */
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+  color: var(--headerColors)
+}
+
 
 
 .card1 h3{
@@ -527,7 +536,7 @@ footer{
   height: 50px;
   white-space: nowrap;
   float: left;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 25px;
   font-size: 0.5rem;
   text-align: center;
