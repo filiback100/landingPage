@@ -40,6 +40,32 @@ body{
   
 }
 
+#git{
+  padding-top: 8px;
+}
+#git:hover{
+  cursor: pointer;
+  color: var(--ctaColor);
+}
+#git2{
+  padding-top: 8px;
+}
+#git2:hover{
+  cursor: pointer;
+  color: var(--ctaColor);
+}
+
+#git3{
+  padding-top: 8px;
+}
+#git3:hover{
+  cursor: pointer;
+  color: var(--ctaColor);
+}
+
+
+
+
 #myBtn:hover {
   width: 110px;
  
@@ -379,6 +405,9 @@ margin-bottom: 5rem;
 
 
 /**Projects*/
+#card-header{
+  color: var(--ctaColor);
+}
 
 .project-wrapper{
   width: 100%;
@@ -418,10 +447,7 @@ margin-bottom: 5rem;
   color: var(--background);
 }
 
-.card:hover {
-  transform:scale(1.05); 
-  cursor: pointer;
-}
+
 
 
 .project-wrapper img{
